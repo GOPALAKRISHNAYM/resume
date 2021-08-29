@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background: #45426d;
+  color: white;
+  font-size: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
   }
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin-left: 22em;
+  margin-top: 2.5em;
+  
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card:hover {
+  box-shadow: 0 5px 25px 0 rgba(27, 3, 236, 0.2);
+}
+
+.container {
+  /* padding: 2px 16px; */
+}
+.name{
+  margin-left: 2em;
+}
+.tag-size{
+  margin-top: 0%;
+  font-size:20px;
+  margin-bottom: 0%;
+  margin-left: 3em;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.picture-part{
+  float:left; 
+  background: #45426d;
+  height: 5em;
+  width: 25em;
+}
+#middlebox{
+  float:left; 
+  width:14em;
+  height:5em;
+}
+#rightbox{
+  float:left;
+  width:14em;
+  height:5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#rightbox1{
+  float:left; 
+  width:14.48em;
+  height:5em;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 0 -8px;
+}
+
+section > * {
+  margin: 0 8px;
+}
+
+.tall {
+  max-width: 64px;
+}
+
+img {
+  display: block;
+}
+
+.divider {
+  width: 2px;
+  margin: 6px 0;
+  background: rgb(77, 77, 90);
+}
+
+.item {
+  flex: 0 1 auto;
+  background: orange;
+}
+.phone-call {
+  width: 30px;
+    height: 30px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.phone-no{
+  margin-left: 3em;
+}
+.email{
+  font-size: revert;
+}
+.loc{
+  padding-left: 5em;
+  text-decoration:none;
+}
+.loc-icon {
+   width: 30px;
+    height: 30px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 1em;
 }
