@@ -6,8 +6,32 @@ body {
 .header {
   background: #45426d;
   color: white;
-  font-size: 30px;
+  font-size: 1.875em;
 }
+@media(max-width : 998rem) {
+  .App{
+    font-size: 55%;
+  }
+}
+
+@media(max-width : 768rem) {
+  .App{
+    font-size: 28%;
+  }
+}
+
+/* @media(max-width : 480rem) {
+  .App{
+    font-size: 55%;
+  }
+} */
+
+@media(max-width : 576rem) {
+  .App{
+    font-size: 26%;
+  }
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -17,7 +41,7 @@ body {
   }
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 60%;
   margin-left: 22em;
@@ -26,7 +50,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 5px 25px 0 rgba(27, 3, 236, 0.2);
+  box-shadow: 0 0.313em 1.563em 0 rgba(27, 3, 236, 0.2);
 }
 
 .container {
@@ -37,7 +61,7 @@ body {
 }
 .tag-size{
   margin-top: 0%;
-  font-size:20px;
+  font-size:1.25em;
   margin-bottom: 0%;
   margin-left: 3em;
   color: white;
@@ -69,15 +93,15 @@ section {
   display: flex;
   flex-direction: row;
   flex: 1;
-  margin: 0 -8px;
+  margin: 0 -0.5em;
 }
 
 section > * {
-  margin: 0 8px;
+  margin: 0 0.5em;
 }
 
 .tall {
-  max-width: 64px;
+  max-width: 4em;
 }
 
 img {
@@ -85,8 +109,8 @@ img {
 }
 
 .divider {
-  width: 2px;
-  margin: 6px 0;
+  width: 0.125em;
+  margin: 0.375em 0;
   background: rgb(77, 77, 90);
 }
 
@@ -95,10 +119,10 @@ img {
   background: orange;
 }
 .phone-call {
-  width: 30px;
-    height: 30px;
-    padding-left: 90px;
-    padding-top: 10px;
+  width: 1.875em;
+    height: 1.875em;
+    padding-left: 5.625em;
+    padding-top: 0.625em;
 }
 .phone-no{
   margin-left: 3em;
@@ -111,9 +135,9 @@ img {
   text-decoration:none;
 }
 .loc-icon {
-   width: 30px;
-    height: 30px;
-    padding-left: 90px;
-    padding-top: 10px;
+   width: 1.875em;
+    height: 1.875em;
+    padding-left: 5.625em;
+    padding-top: 0.625em;
     padding-bottom: 1em;
 }
