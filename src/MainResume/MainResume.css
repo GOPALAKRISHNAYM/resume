@@ -2,11 +2,11 @@
     float:left;
     height: 15em;
   width: 24.45em;
-  box-shadow: 0 5px 25px 0 rgba(88, 88, 92, 0.2);
+  box-shadow: 0 0.313em 1.563em 0 rgba(88, 88, 92, 0.2);
   }
 
 #left-div:hover {
-    box-shadow: 0 5px 25px 0 rgba(27, 3, 236, 0.2);
+    box-shadow: 0 0.313em 1.563em 0 rgba(27, 3, 236, 0.2);
 }
 #right-div{
     float:right;
@@ -14,7 +14,7 @@
     height:15em;
 }
 #right-div:hover {
-    box-shadow: 0 5px 25px 0 rgba(27, 3, 236, 0.2);
+    box-shadow: 0 0.313em 1.563em 0 rgba(27, 3, 236, 0.2);
 }
 .profile-logo{
     width: 4em;
@@ -36,7 +36,7 @@
     /* margin-left: 17px; */
 }
 .text-size{
-    font-size: 30px;
+    font-size: 1.875em;
     color: rgba(0, 0, 0, 0.2);
 }
 .hr-line{
@@ -50,7 +50,7 @@
    bottom:0;
    background: #45426d;
    width: 60%;
-   height:60px;   /* Height of the footer */
+   height:3.75em;   /* Height of the footer */
 }
 .text1{
     width: 100%;

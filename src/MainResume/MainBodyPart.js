@@ -19,7 +19,7 @@ export function MainBodyPart() {
                     <p><i>"HI, my name is Gopala krishna ym, im software engineer.I like expanding my knowledge and to explore opportunities for my professional growth".</i></p>
                 </div>
             </div>
-            <div id="right-div">
+            <div id="right-div" grid={{ md: 3 }}>
                 <div class="logo">
                     <HiBriefcase class="profile-logo"></HiBriefcase>
                 </div>
@@ -51,7 +51,7 @@ export function MainBodyPart() {
                     </ul>
                 </div>
             </div>
-            <div id="right-div">
+            <div id="right-div" grid={{ md: 3 }}>
                 <div class="logo">
                     <FaUserGraduate class="profile-logo"></FaUserGraduate>
                 </div>
@@ -90,7 +90,7 @@ export function MainBodyPart() {
                     </ul>
                 </div>
             </div>
-            <div id="right-div">
+            <div id="right-div" grid={{ md: 3 }}>
                 <div class="logo">
                     <FaAward class="profile-logo"></FaAward>
                 </div>
