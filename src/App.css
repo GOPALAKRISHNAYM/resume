@@ -53,9 +53,6 @@ body {
   box-shadow: 0 0.313em 1.563em 0 rgba(27, 3, 236, 0.2);
 }
 
-.container {
-  /* padding: 2px 16px; */
-}
 .name{
   margin-left: 2em;
 }
